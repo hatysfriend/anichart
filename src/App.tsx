@@ -1,14 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+import React from 'react'; 
+import styled from 'styled-components';
 import './App.css';
+import { HomePage } from './app/containers/HomePage';
+
+const AppContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
 function App() {
-  return (
-    <div className="App"> 
-      Hello World!
-    </div>
-  );
+  return <AppContainer>
+    <HomePage />
+  </AppContainer>;
 }
 
 export default App;
