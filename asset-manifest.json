@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/anichart/static/css/main.93e0a7df.chunk.css",
+    "main.js": "/anichart/static/js/main.b2236264.chunk.js",
+    "main.js.map": "/anichart/static/js/main.b2236264.chunk.js.map",
+    "runtime-main.js": "/anichart/static/js/runtime-main.7a70d094.js",
+    "runtime-main.js.map": "/anichart/static/js/runtime-main.7a70d094.js.map",
+    "static/js/2.461609a6.chunk.js": "/anichart/static/js/2.461609a6.chunk.js",
+    "static/js/2.461609a6.chunk.js.map": "/anichart/static/js/2.461609a6.chunk.js.map",
+    "index.html": "/anichart/index.html",
+    "static/css/main.93e0a7df.chunk.css.map": "/anichart/static/css/main.93e0a7df.chunk.css.map",
+    "static/js/2.461609a6.chunk.js.LICENSE.txt": "/anichart/static/js/2.461609a6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a70d094.js",
+    "static/js/2.461609a6.chunk.js",
+    "static/css/main.93e0a7df.chunk.css",
+    "static/js/main.b2236264.chunk.js"
+  ]
+}
