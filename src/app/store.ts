@@ -1,5 +1,7 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit'; 
 import homePageReducer from './containers/HomePage/homePageSlice';
+// import ReduxLogger from "redux-logger";
+
 
 export const store = configureStore({
   reducer: {

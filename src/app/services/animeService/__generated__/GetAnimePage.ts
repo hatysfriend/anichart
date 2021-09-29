@@ -13,6 +13,10 @@ export interface GetAnimePage_Page_media_title {
    * The official english title
    */
   english: string | null;
+  /**
+   * The currently authenticated users preferred title language. Default romaji for non-authenticated
+   */
+  userPreferred: string | null;
 }
 
 export interface GetAnimePage_Page_media_coverImage {
@@ -33,6 +37,10 @@ export interface GetAnimePage_Page_media {
    * Short description of the media's story and characters
    */
   description: string | null;
+  /**
+   * A weighted average score of all the user's scores of the media
+   */
+  averageScore: number | null;
   /**
    * The official titles of the media in various languages
    */
